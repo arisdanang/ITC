@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title>Belajar HTML - Pertemuan 3</title>
+  </head>
+  <body>
+    <h1>Belajar membuat Form di HTML</h1>
+
+    <form>
+      <label for="namaLengkap">Nama Lengkap :</label> <br>
+      <input name="namaLengkap" type="text" id="namaLengkap" placeholder="Nama Lengkap" required><br>
+
+      <label>Email :</label> <br>
+      <input type="email" readonly> <br>
+
+      <label>Password :</label> <br>
+      <input type="password" name="password" maxlength="4"><br>
+
+      <label>Jenis Kelamin</label> <br>
+      <input type="radio" value="perempuan" name="jenisKelamin" id="perempuan">
+      <label for="perempuan">Perempuan</label>
+      <input type="radio" value="laki-laki" name="jenisKelamin" id="laki-laki">
+      <label for="laki-laki">laki-laki</label> <br>
+
+      <label>Bahasa Pemrograman yang dikuasai</label> <br>
+      <input type="checkbox">
+      <label>Java</label>
+      <input type="checkbox">
+      <label >PHP</label>
+      <input type="checkbox">
+      <label >JavaScript</label> <br>
+
+      <label>Pesan</label><br>
+      <textarea rows="5">masukkan pesan anda</textarea> <br>
+
+      <label>Masukkan file :</label> <br>
+      <input type="file"> <br>
+
+      <label>tanggal :</label><br>
+      <input type="date"> <br>
+
+      <button>Simpan</button>
+    </form>
+  </body>
+</html>
