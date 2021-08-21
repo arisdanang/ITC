@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+/* selector {
+  color: red
+} */
+
+body {
+  font-family: 'Lato',sans-serif;
+}
+p {
+  color: red;
+}
+
+
+
+#header-3 {
+  font-family: 'Lato',sans-serif;
+}
+
+#paragraf {
+  font-family: 'Lato' sans-serif;
+}
+
+.div-pertama {
+  background-color: grey;
+}
+
+.div-kedua {
+  background-color: greenyellow;
+}
+
+.div-pertama p {
+  color: salmon;
+}
+
+.div-pertama .paragraf.kedua {
+  color: blue;
+}
+
+p[id="parafgraf-kedua"] {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.div-pertama a {
+  text-decoration: none;
+}
+
+/* pseudo classes */
+.div-pertama h1:hover {
+  color: red;
+}
+
+
+.div-pertama a:hover {
+  color: brown;
+}
+
+.div-pertama a:active {
+  color: darkblue;
+}
+
+.div-pertama button:hover {
+  background-color: yellow;
+}
+
+.div-pertama button:visited {
+  background-color: aqua;
+}
+
+.div-pertama button:active {
+  background-color: green;
+}
